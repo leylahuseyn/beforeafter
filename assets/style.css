@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 125, 125);
+    position: relative;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+   color: white;
+   text-align: center;
+   font-size: 25px;
+}
+.after::before{
+    content: '';
+    width: 150px;
+    height: 3px;
+    border-radius: 13%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+    margin: -15px 54px ;
+}
+.star{
+    padding: 0px 25px 0 0;
+}
+.before::after{
+    content: '';
+    width: 150px;
+    height: 3px;
+    border-radius: 13%;
+    background-color: white;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+p{
+    color: white;
+   text-align: center;
+   font-size: 25px;
+   padding: 1em;
+}
